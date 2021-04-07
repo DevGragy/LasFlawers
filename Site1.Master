@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs"
+Inherits="LasFlawers.Site1" %>
+
+    <!DOCTYPE html>
+
+    <html>
+
+    <head runat="server">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+        <link rel="stylesheet" href="./StyleSheet1.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto:wght@300;500&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </head>
+
+    <body>
+        <form id="form1" runat="server">
+            <div>
+                <header>
+                    <nav class="enlaces_header">
+                        <ul>
+                            <li><a href="WebForm1.aspx">Home</a></li>
+                            <li>
+                                <a href="WebForm2.aspx">Invernadero</a>
+                            </li>
+                            <li>
+                                <a href="WebForm3.aspx">Cuidados Basicos</a>
+                            </li>
+                            <li>
+                                <a href="WebForm4.aspx">Nosotros</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <h1>Las Flawers</h1>
+                    <h3>Lo verde es cool</h3>
+                </header>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+                <footer>
+                    <div class="social_media">
+                        <a href="https://www.facebook.com/23456789lsdfghja"><i class="fa fa-facebook-square"></i>
+                        </a>
+                        <a href="https://www.instagram.com/deniseodeth/"><i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="https://github.com/DevGragy"><i class="fa fa-github"></i>
+                        </a>
+                    </div>
+                    <hr class="divider" />
+                    <div class="copyright">
+                        <h4>&copy Copyright by Wildcats 2021</h4>
+                    </div>
+                </footer>
+            </div>
+        </form>
+    </body>
+
+    </html>
